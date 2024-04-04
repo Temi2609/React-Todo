@@ -32,10 +32,27 @@
     animation: logo-spin infinite 20s linear;
   }
 }
-.Input{
-  border: 1px solid green;
-  width: 40vw;
+body{
+  background-color: black;
+}
+
+#parent{
+  border:  4px solid purple;
+  border-radius: 1rem;
+  width: 50vw;
+  height: 50vh;
+  background-color: #fff;
+}
+input{
+  margin-top: 5vh;
+  width: 30vw;
+  height: 5vh;
+  border-radius: 0.7rem;
   font-size: 20px;
-  box-shadow: 0 0 4px green;
   padding: 10px;
+  border: 2px solid purple;
+}
+div p{
+    font-size: 20px;
+    font-weight: bold;
 }
